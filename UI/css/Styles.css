@@ -113,9 +113,9 @@ form{
   width: 94.5%;
   background-color: #00a9ac;
   border-radius: 0.5em;
-  border-style: none;;
+  border-style: none;
   color: #ffffff;
-  font-size: 36px;
+  font-size: 30px;
 }
 #submit:hover{
   transition: 2s;
@@ -126,4 +126,18 @@ form{
   font-size: 36px;
   margin-top: 7%;
   text-align: center;
+}
+#register{
+  padding: 2px;
+  width: 94.5%;
+  background-color:#00baa9;
+  border-radius: 0.5em;
+  border-style: none;;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  float: left;
 }
