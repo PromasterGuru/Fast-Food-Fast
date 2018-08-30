@@ -7,7 +7,7 @@ body{
 }
 #container{
   width: 75%;
-  margin: auto;
+  margin:0px auto;
   background-color: #808080;
 }
 nav{
@@ -34,6 +34,7 @@ nav a{
 }
 #banner{
   width: 100%;
+  background-color: #404040;
   float: left;
 }
 #banner h2{
@@ -91,5 +92,38 @@ section p{
   margin: 0pc auto;;
   font-family: serif;
   color: 	#ffffff;
+  text-align: center;
+}
+.input{
+  padding: 10px;
+  width: 90%;
+  margin: 1%;
+  font-size: 16px;
+  border-radius: 0.2em;
+}
+form{
+  background-color: #595959;
+  width: 50%;
+  padding: 3%;
+  border-radius: 0.3em;
+  margin: 0px auto;
+}
+#submit{
+  padding: 2px;
+  width: 94.5%;
+  background-color: #00a9ac;
+  border-radius: 0.5em;
+  border-style: none;;
+  color: #ffffff;
+  font-size: 36px;
+}
+#submit:hover{
+  transition: 2s;
+  background-color: #00a9d1;
+  cursor: pointer;
+}
+#acc-title{
+  font-size: 36px;
+  margin-top: 7%;
   text-align: center;
 }
