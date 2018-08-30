@@ -241,12 +241,12 @@ table{
 }
 #div_desc{
   width: 25%;
-  height: 72px;
+  height: 82px;
   border-top-right-radius: 0.5em;
   border-bottom-right-radius: 0.5em;
   background-color: #a6a6a6;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 4%;
   margin-right: 5%;
   float: left;
 }
