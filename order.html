@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fast-Food-Fast food delivery service</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/Styles.css">
+</head>
+<body>
+  <div id="container">
+      <nav>
+        <p>Fast food Fast</p>
+        <a href="login.html">Logout</a>
+        <a href="food-items.html" style="border-right:solid 1px #ffffff;margin-right:1%;"> Admin</a>
+        <a href="#" style="border-right:solid 1px #ffffff;margin-right:1%;"> User</a>
+        <input type="search" style="border-radius:1em;padding:4px 8px;float:right; width:30%; margin-right:1%;" placeholder="Enter food name">
+      </nav>
+      <div id="banner">
+        <h2>Discovering African Deliciousness</h2>
+        <img src="img/food.jpg" alt="Food image" height="350px" width="100%">
+      </div>
+      <section>
+        <p>How it works<br><br>1. Search &nbsp;2. Choose &nbsp;3. Pay &nbsp;4. Enjoy</p>
+        <div id="order">
+          <div class="food-item2">
+            <figure>
+            <img src="img/food1.jpeg" alt="Food image">
+            <figcaption><input type="checkbox"> Tater tots</figcaption>
+          </figure>
+          <input type="number"  min="0" style="width:25%; margin: 2% 0%;font-size:14px;padding:1% 0%;"> Quantity
+          <button margin:3%;>Add to Cart</button>
+          </div>
+          <div class="food-item2">
+            <figure>
+            <img src="img/food2.jpeg" alt="Food image">
+            <figcaption><input type="checkbox"> Cobb salad</figcaption>
+          </figure>
+          <input type="number" min="0" style="width:25%; margin: 2% 0%;font-size:14px;padding:1% 0%;"> Quantity
+          <button margin:3%;>Add to Cart</button>
+          </div>
+          <div class="food-item2">
+            <figure>
+            <img src="img/food3.jpeg" alt="Food image">
+            <figcaption><input type="checkbox"> Twinkies</figcaption>
+          </figure>
+          <input type="number" min="0" style="width:25%; margin: 2% 0%;font-size:14px;padding:1% 0%;"> Quantity
+          <button margin:3%;>Add to Cart</button>
+        </div>
+        <div class="food-item2">
+          <figure>
+          <img src="img/food4.jpeg" alt="Food image">
+          <figcaption><input type="checkbox"> Fajita</figcaption>
+          </figure>
+          <input type="number" min="0" style="width:25%; margin: 2% 0%;font-size:14px;padding:1% 0%;"> Quantity
+          <button margin:3%;>Add to Cart</button>
+        </div>
+    </div>
+      <div id="payment">
+        <p style="text-align:center; font-size:18px;">Order Now</p>
+        <div id="order_payment">
+          <p>Mode of payment</p>
+          <p>
+            <select style="width:93%;">
+            <option>Master Card</option>
+            <option>PayPal</option>
+            <option>Mpesa</option>
+          </select>
+        </p>
+          <p>Subtotal: $158.00</p>
+          <p>Discount: $10.40</p>
+          <button id="btn_order">Order</button>
+        </div>
+      </div>
+      <div id="histoy_bar">
+        <a href="#" id="btn_history">View Order History</a>
+        <p>There are no orders to display</p>
+      </div>
+        <section>
+      <div id="footer">&copy2018 by Fast-Food-Fast restaurants</div>
+  </div>
+</body>
+</html>
