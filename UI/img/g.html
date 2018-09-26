@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="gr__localhost"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>flask.cli.NoAppException: Failed to find Flask application or
+ factory in module "run". Use "FLASK_APP=run:name to specify one. // 
+Werkzeug Debugger</title>
+    <link rel="stylesheet" href="g_files/orders.css" type="text/css">
+    <!-- We need to make sure this has a favicon so that the debugger does
+         not by accident trigger a request to /favicon.ico which might
+         change the application state. -->
+    <link rel="shortcut icon" href="g_files/orders.png">
+    <script src="g_files/orders_002.js"></script>
+    <script src="g_files/orders.js"></script>
+    <script type="text/javascript">
+      var TRACEBACK = 140160023028232,
+          CONSOLE_MODE = false,
+          EVALEX = true,
+          EVALEX_TRUSTED = false,
+          SECRET = "NJSMAF5yHDukwKq2Ris3";
+    </script>
+  </head>
+  <body style="background-color: #fff" data-gr-c-s-loaded="true">
+    <div class="debugger">
+<h1>flask.cli.NoAppException</h1>
+<div class="detail">
+  <p class="errormsg">flask.cli.NoAppException: Failed to find Flask application or factory in module "run". Use "FLASK_APP=run:name to specify one.</p>
+</div>
+<h2 class="traceback" style="cursor: pointer;">Traceback <em>(most recent call last)</em></h2>
+<div class="traceback">
+  
+  <ul><li><div class="frame" id="frame-140160023028904">
+  <h4>File <cite class="filename">"/usr/lib/python3/dist-packages/flask/_compat.py"</cite>,
+      line <em class="line">35</em>,
+      in <code class="function">reraise</code></h4>
+  <div class="source"><pre class="line before"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>from io import StringIO</pre>
+<pre class="line before"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line before"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>def reraise(tp, value, tb=None):</pre>
+<pre class="line before"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>if value.__traceback__ is not tb:</pre>
+<pre class="line before"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>raise value.with_traceback(tb)</pre>
+<pre class="line current"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>raise value</pre>
+<pre class="line after"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line after"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>implements_to_string = _identity</pre>
+<pre class="line after"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line after"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws"></span>else:</pre>
+<pre class="line after"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>text_type = unicode</pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-140160023029184">
+  <h4>File <cite class="filename">"/usr/lib/python3/dist-packages/flask/cli.py"</cite>,
+      line <em class="line">95</em>,
+      in <code class="function">find_best_app</code></h4>
+  <div class="source"><pre class="line before"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>)</pre>
+<pre class="line before"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line before"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>raise NoAppException(</pre>
+<pre class="line before"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>'Failed to find Flask application or factory in module "{module}". '</pre>
+<pre class="line before"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>'Use "FLASK_APP={module}:name to specify one.'.format(</pre>
+<pre class="line current"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>module=module.__name__</pre>
+<pre class="line after"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>)</pre>
+<pre class="line after"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>)</pre>
+<pre class="line after"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line after"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line after"><img src="g_files/orders.png" title="Open an interactive python shell in this frame"><span class="ws"></span>def call_factory(script_info, app_factory, arguments=()):</pre></div>
+</div>
+</li></ul>
+  <blockquote>flask.cli.NoAppException: Failed to find Flask application or factory in module "run". Use "FLASK_APP=run:name to specify one.</blockquote>
+</div>
+
+<div class="plain" style="display: none;">
+  <form action="/?__debugger__=yes&amp;cmd=paste" method="post">
+    <p>
+      <input name="language" value="pytb" type="hidden">
+      This is the Copy/Paste friendly version of the traceback.  <span class="pastemessage">You can also paste this traceback into
+      a <a href="https://gist.github.com/">gist</a>:
+      <input value="create paste" type="submit"></span>
+    </p>
+    <pre>Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/flask/cli.py", line 95, in find_best_app
+    module=module.__name__
+flask.cli.NoAppException: Failed to find Flask application or factory in module "run". Use "FLASK_APP=run:name to specify one.</pre>
+  </form>
+</div>
+<div class="explanation">
+  The debugger caught an exception in your WSGI application.  You can now
+  look at the traceback which led to the error.  <span class=""><p>To 
+switch between the interactive traceback and the plaintext one, you can 
+click on the "Traceback" headline.  From the text traceback you can also
+ create a paste of it. For code execution mouse-over the frame you want 
+to debug and click on the console icon on the right side.</p><p>You can execute arbitrary Python code in the stack frames and there are some extra helpers available for introspection:</p><ul><li><code>dump()</code> shows all variables in the frame</li><li><code>dump(obj)</code> dumps all that's known about the object</li></ul></span>
+</div>
+      <div class="footer">
+        Brought to you by <strong class="arthur">DON'T PANIC</strong>, your
+        friendly Werkzeug powered traceback interpreter.
+      </div>
+    </div>
+
+    <div class="pin-prompt">
+      <div class="inner">
+        <h3>Console Locked</h3>
+        <p>
+          The console is locked and needs to be unlocked by entering the PIN.
+          You can find the PIN printed out on the standard output of your
+          shell that runs the server.
+        </p><form>
+          <p>PIN:
+            <input name="pin" size="14" type="text">
+            <input name="btn" value="Confirm Pin" type="submit">
+        </p></form>
+      </div>
+    </div>
+  
+
+
+
+</body></html>
+<!--
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/flask/cli.py", line 95, in find_best_app
+    module=module.__name__
+flask.cli.NoAppException: Failed to find Flask application or factory in module "run". Use "FLASK_APP=run:name to specify one.
+
+-->
